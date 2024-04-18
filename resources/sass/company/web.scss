@@ -1,0 +1,79 @@
+.all_first_sections{
+    strong {
+        color: #000000 !important;
+    }
+
+    .all_main_rows {
+        min-height: 400px;
+    }
+
+    h1 {
+        color: #ffffff !important;
+    }
+    h2 {
+        color: #ffffff !important;
+    }
+    h4 {
+        color: #EA4D44;
+        font-weight: 600 !important;
+    }
+
+    .navbar {
+        background-color: transparent !important;
+        box-shadow: none !important;
+
+        .collapse ul li a {
+            color: #ffffff !important;
+        }
+    }
+
+    .card-img-overlay {
+        .navbar {
+            background-color: transparent !important;
+            box-shadow: none !important;
+        }
+    }
+}
+
+.company_sec {
+    overflow: hidden !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background: url('/assets/images/company.jpg') no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+
+    
+}
+.custom_software__Development{
+    .bg__color{
+        background-color: yellow;
+    }
+}
+.work__Approach{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background: url('/assets/images/company/workBanner.jpg') no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
+    ul {
+        list-style: none;
+      }
+      
+      ul li::before {
+        content: "\2022";
+        color: #2393cc !important;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+      }
+}
+
+
+.custom_software__Development{
+    background-color: #f3f7fa;
+}

@@ -1,0 +1,1584 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;
+
+200&display=swap);@charset "UTF-8";
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.header_section nav.navbar.navbar-expand-lg.nav_bar {
+  padding: 10px 0px;
+  background-color: #ffffff;
+}
+
+.header_section a {
+  text-decoration: none !important;
+}
+
+.header_section .navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 0px !important;
+}
+
+.header_section .collapse ul li .in-active {
+  color: #000000 !important;
+  font-size: 14px;
+}
+
+.header_section .collapse ul li .in-active:hover {
+  color: #2393cc !important;
+}
+
+.header_section .header_links .nav-item a {
+  margin-left: 18px;
+}
+
+.header_section .navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.header_section a.nav-link.active {
+  color: #2393cc !important;
+  border-bottom: 3px solid;
+  padding-bottom: 0px;
+  font-size: 14px;
+}
+
+.header_section a.nav-link {
+  padding-right: 0px !important;
+}
+
+.header_section .company_drop_down .dropdown {
+  position: static !important;
+}
+
+.header_section .company_drop_down .dropdown-content {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  margin-top: 0px !important;
+  width: 100% !important;
+  display: none;
+  position: absolute;
+  overflow: auto;
+  left: 0px;
+  background-color: #000000;
+  text-align: left;
+}
+
+.header_section .company_drop_down .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header_section .company_drop_down .left_panel {
+  padding: 70px 0px;
+}
+
+.header_section .company_drop_down .left_panel p a {
+  color: #ffffff !important;
+}
+
+.header_section .company_drop_down .left_panel p a:hover {
+  color: #2393cc !important;
+  margin-left: 20px !important;
+  transition-duration: 1.5s;
+}
+
+.header_section .company_drop_down .left_panel .sub_d_active_links {
+  color: #2393cc !important;
+}
+
+.header_section .company_drop_down .left_panel .dropdown_mm {
+  position: static !important;
+}
+
+.header_section .company_drop_down .left_panel .dropdown-content-mm {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  margin-top: 0px !important;
+  display: none;
+  position: absolute;
+  overflow: auto;
+}
+
+.header_section .company_drop_down .left_panel .dropdown_mm:hover .dropdown-content-mm {
+  display: block;
+}
+
+.header_section .company_drop_down .left_panel .company_drop {
+  margin: 0px !important;
+}
+
+.header_section .company_drop_down .left_panel .drop_menu a {
+  color: #ffffff !important;
+}
+
+.header_section .company_drop_down .left_panel .drop_menu a:hover {
+  color: #2393cc !important;
+  margin-left: 20px !important;
+  transition-duration: 1.5s;
+}
+
+.header_section .company_drop_down .left_panel .drop_menu .sub_d_active_links {
+  color: #2393cc !important;
+}
+
+.header_section .company_drop_down .left_panel .sub_drop_downs {
+  margin-left: 15px;
+}
+
+.header_section .all_circles {
+  font-size: 5px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 990px) {
+  a.nav-link.active {
+    font-size: 18px;
+    color: #2393cc !important;
+    border-bottom: none !important;
+    font-weight: 600;
+    padding-bottom: 0px;
+  }
+}
+
+.footer_sec {
+  background-color: #005683;
+}
+
+.footer_sec p {
+  color: #ffffff !important;
+}
+
+.footer_sec a {
+  color: #ffffff;
+}
+
+.footer_sec h6 {
+  color: #ffffff;
+  font-weight: 600 !important;
+}
+
+.footer_sec .aLinks:hover {
+  color: #ffffff !important;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 990px) {
+  .footer_sec {
+    text-align: center;
+  }
+
+  .footer_sec .footerImage {
+    width: 40% !important;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 991px) {
+  .footer_sec .connectImage {
+    width: 40px;
+  }
+}
+
+.contact_us_sec {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.careers_banner_sec {
+  background-color: #f3f7fa;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.home_first_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/home/homeBanner.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.home_first_sec strong {
+  color: #000000 !important;
+}
+
+.home_first_sec .all_main_rows {
+  min-height: 400px;
+}
+
+.home_first_sec h1 {
+  color: #ffffff !important;
+}
+
+.home_first_sec h4 {
+  color: #ea4d44;
+  font-weight: 600 !important;
+}
+
+.home_first_sec .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.home_first_sec .navbar .collapse ul li a {
+  color: #ffffff !important;
+}
+
+.home_first_sec .card-img-overlay .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.ourservices_sec {
+  background-color: #f3f7fa;
+}
+
+.ourservices_sec .our_services_all_cards {
+  margin: 10px;
+}
+
+.ourservices_sec .our_services_all_cards h5 {
+  color: #2393cc;
+}
+
+.ourservices_sec .slick-track {
+  display: flex !important;
+}
+
+.ourservices_sec .slick-slide {
+  height: inherit !important;
+}
+
+.ourservices_sec a {
+  color: #2393cc;
+}
+
+.ourservices_sec a:hover {
+  color: #2393cc;
+}
+
+.ourindustries_sec a {
+  color: #2393cc;
+}
+
+.ourindustries_sec a:hover {
+  color: #2393cc;
+}
+
+.ourindustries_sec h5 {
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+.ourindustries_sec .card {
+  border-radius: 25px;
+  margin: 0px 20px 0px 20px;
+  border: none;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+}
+
+.ourindustries_sec .card p {
+  color: #ffffff !important;
+}
+
+.ourindustries_sec .card:hover {
+  transform: scale(1.1);
+}
+
+.ourindustries_sec .retail_card {
+  background-color: #2393cc;
+}
+
+.ourindustries_sec .it_card {
+  background-color: #f7536c;
+}
+
+.ourindustries_sec .hospitality_card {
+  background-color: #522487;
+}
+
+.ourindustries_sec .callcenters_card {
+  background-color: #ecbc2a;
+}
+
+.ourindustries_sec .healthcare_card {
+  background-color: #f98425;
+}
+
+.ourindustries_sec .education_card {
+  background-color: #2ba79c;
+}
+
+.ourindustries_sec .music_card {
+  background-color: #f75353;
+}
+
+.aboutUs_img {
+  border-radius: 10px;
+}
+
+.services_first_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/home/services.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.services_first_sec strong {
+  color: #000000 !important;
+}
+
+.services_first_sec .all_main_rows {
+  min-height: 400px;
+}
+
+.services_first_sec h1 {
+  color: #ffffff !important;
+}
+
+.services_first_sec h2 {
+  color: #ffffff !important;
+}
+
+.services_first_sec h4 {
+  color: #ea4d44;
+  font-weight: 600 !important;
+}
+
+.services_first_sec .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.services_first_sec .navbar .collapse ul li a {
+  color: #ffffff !important;
+}
+
+.services_first_sec .card-img-overlay .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.business_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/home/business.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.mobile_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/home/mobileSolutons.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.web_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/home/webSolutions.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.software_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/home/softwarwDevelopment.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.applicationDevSec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/services/appDev.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.artificalIntSec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/services/AI.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.cloudComSec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/services/cloud.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.CyberSerSec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/services/cyber.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.DataBackSec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/services/backUp.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.HelpDecSec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/services/callCen.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.IOTSec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/services/iot.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.ItConSec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/services/itCon.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.MLSec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/services/ML.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.NetworkSec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/services/network.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.contactus_first_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/conUs.png") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.contactus_first_sec strong {
+  color: #000000 !important;
+}
+
+.contactus_first_sec .all_main_rows {
+  min-height: 400px;
+}
+
+.contactus_first_sec h1 {
+  color: #ffffff !important;
+}
+
+.contactus_first_sec h4 {
+  color: #EA4D44;
+  font-weight: 600 !important;
+}
+
+.contactus_first_sec .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.contactus_first_sec .navbar .collapse ul li a {
+  color: #ffffff !important;
+}
+
+.contactus_first_sec .card-img-overlay .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.contact_content_sec input {
+  background-color: #ffffff;
+  color: #2393cc !important;
+}
+
+.contact_content_sec textarea {
+  background-color: #ffffff;
+  color: #2393cc !important;
+}
+
+.contact_content_sec ::-moz-placeholder {
+  color: #2393cc;
+  opacity: 1;
+  /* Firefox */
+}
+
+.contact_content_sec ::placeholder {
+  color: #2393cc;
+  opacity: 1;
+  /* Firefox */
+}
+
+.contact_content_sec :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ffffff;
+}
+
+.contact_content_sec ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ffffff;
+}
+
+.contact_content_sec .contact_error_msg {
+  color: #f00;
+}
+
+.contact_content_sec .contact_success_msg {
+  color: #008000;
+}
+
+.careers_first_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/careers/careers.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.careers_first_sec strong {
+  color: #000000 !important;
+}
+
+.careers_first_sec .all_main_rows {
+  min-height: 400px;
+}
+
+.careers_first_sec h1 {
+  color: #ffffff !important;
+}
+
+.careers_first_sec h2 {
+  color: #ffffff !important;
+}
+
+.careers_first_sec h4 {
+  color: #EA4D44;
+  font-weight: 600 !important;
+}
+
+.careers_first_sec .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.careers_first_sec .navbar .collapse ul li a {
+  color: #ffffff !important;
+}
+
+.careers_first_sec .card-img-overlay .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.out_clients_sec .card {
+  border: none !important;
+}
+
+.open_positions_sec {
+  background-color: #f3f7fa;
+}
+
+.open_positions_sec .card {
+  border: none !important;
+  background-color: #ffffff !important;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  display: flex;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  margin: 15px 10px 10px 10px;
+}
+
+.open_positions_sec .card hr {
+  color: #2393cc;
+}
+
+.open_positions_sec .card:hover {
+  transform: scale(1.1);
+}
+
+.open_positions_sec .all_btns {
+  padding: 6px 40px !important;
+}
+
+#apply_job_model .display_content {
+  border: none;
+}
+
+#apply_job_model .display_titles {
+  display: inline-block !important;
+}
+
+#apply_job_model #file_upload {
+  opacity: 0;
+}
+
+#apply_job_model .resume_text {
+  position: relative;
+  bottom: 30px;
+  cursor: pointer;
+  color: #2393cc;
+}
+
+.industries_first_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/industries.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.industries_first_sec strong {
+  color: #000000 !important;
+}
+
+.industries_first_sec .all_main_rows {
+  min-height: 400px;
+}
+
+.industries_first_sec h1 {
+  color: #ffffff !important;
+}
+
+.industries_first_sec h2 {
+  color: #ffffff !important;
+}
+
+.industries_first_sec h4 {
+  color: #ea4d44;
+  font-weight: 600 !important;
+}
+
+.industries_first_sec .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.industries_first_sec .navbar .collapse ul li a {
+  color: #ffffff !important;
+}
+
+.industries_first_sec .card-img-overlay .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.industries_content_sec {
+  background-color: #ffffff;
+}
+
+.industries_content_sec .our_industries_all_cards {
+  height: 100%;
+}
+
+.industries_content_sec .our_industries_all_cards a {
+  color: #2393cc !important;
+}
+
+.industries_content_sec .our_industries_all_cards a:hover {
+  color: #2393cc !important;
+}
+
+.industries_common_sec a {
+  color: #000000 !important;
+}
+
+.industries_common_sec a:hover {
+  color: #2393cc !important;
+}
+
+.industries_common_sec .active_industries_links {
+  color: #2393cc !important;
+}
+
+.industries_common_for_all strong {
+  color: #000000 !important;
+}
+
+.industries_common_for_all .all_main_rows {
+  min-height: 400px;
+}
+
+.industries_common_for_all h1 {
+  color: #ffffff !important;
+}
+
+.industries_common_for_all h2 {
+  color: #ffffff !important;
+}
+
+.industries_common_for_all h4 {
+  color: #ea4d44;
+  font-weight: 600 !important;
+}
+
+.industries_common_for_all .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.industries_common_for_all .navbar .collapse ul li a {
+  color: #ffffff !important;
+}
+
+.industries_common_for_all .card-img-overlay .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.industries_retail_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/retailIndustries.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.industries_call_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/callCenter.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.industries_education_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/educationIndustries.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.industries_health_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/healthCare.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.industries_hospitality_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/hospitalityIndustry.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.industries_it_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/itIndustries.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.industries_music_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/music.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.industries_sec,
+.industries_small_div {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.industries_sec .card,
+.industries_small_div .card {
+  border: none;
+}
+
+.industries_sec .Retail_img,
+.industries_small_div .Retail_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/retailIndustries.jpg") no-repeat;
+  height: 100%;
+}
+
+.industries_sec .Hospitality_img,
+.industries_small_div .Hospitality_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/hospitalityIndustry.jpg") no-repeat;
+}
+
+.industries_sec .ItIndustries_img,
+.industries_small_div .ItIndustries_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/itIndustries.jpg") no-repeat;
+}
+
+.industries_sec .CallCenters_img,
+.industries_small_div .CallCenters_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/callCenter.jpg") no-repeat;
+}
+
+.industries_sec .HealthCareIndustries_img,
+.industries_small_div .HealthCareIndustries_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/healthCare.jpg") no-repeat;
+}
+
+.industries_sec .Education_img,
+.industries_small_div .Education_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/educationIndustries.jpg") no-repeat;
+}
+
+.industries_sec .Music_img,
+.industries_small_div .Music_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/industries/music.jpg") no-repeat;
+}
+
+.industries_sec .main_img,
+.industries_small_div .main_img {
+  border-radius: 10px !important;
+}
+
+.industries_sec .main_img .card,
+.industries_small_div .main_img .card {
+  border-radius: 15px;
+}
+
+.industries_sec .main_img h5,
+.industries_small_div .main_img h5 {
+  color: #ffffff !important;
+  line-height: 40px;
+}
+
+.industries_sec .main_img p,
+.industries_small_div .main_img p {
+  color: #ffffff !important;
+  line-height: 30px;
+}
+
+.industries_sec .main_img .industry_btn,
+.industries_small_div .main_img .industry_btn {
+  padding: 8px 20px;
+  background: white;
+  color: #000000;
+  border: none;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.industries_sec h6,
+.industries_small_div h6 {
+  line-height: 50px;
+}
+
+.industries_sec h6:hover,
+.industries_small_div h6:hover {
+  color: #eb4d44 !important;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  padding: 0 0 0 10px;
+}
+
+.industries_sec .tab,
+.industries_small_div .tab {
+  float: left;
+}
+
+.industries_sec .tab button,
+.industries_small_div .tab button {
+  display: block;
+  background-color: inherit;
+  color: #000000;
+  padding: 12px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.industries_sec .tab button:hover,
+.industries_small_div .tab button:hover {
+  color: #eb4d44 !important;
+}
+
+.industries_sec .tab button.active,
+.industries_small_div .tab button.active {
+  color: #eb4d44 !important;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.industries_sec .tabcontent,
+.industries_small_div .tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border-left: none;
+}
+
+.all_industries_content_sec p {
+  padding-top: 15px;
+}
+
+.all_industries_content_sec .left__p p {
+  margin-bottom: 5px !important;
+}
+
+.all_industries_content_sec .left__p li {
+  line-height: 28px;
+}
+
+.all_industries_content_sec .left__p ul {
+  list-style: none;
+}
+
+.all_industries_content_sec .left__p li::before {
+  content: "\2022";
+  color: #2393cc;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.technologies_first_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/technologies.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.technologies_first_sec strong {
+  color: #000000 !important;
+}
+
+.technologies_first_sec .all_main_rows {
+  min-height: 400px;
+}
+
+.technologies_first_sec h1 {
+  color: #ffffff !important;
+}
+
+.technologies_first_sec h2 {
+  color: #ffffff !important;
+}
+
+.technologies_first_sec h4 {
+  color: #ea4d44;
+  font-weight: 600 !important;
+}
+
+.technologies_first_sec .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.technologies_first_sec .navbar .collapse ul li a {
+  color: #ffffff !important;
+}
+
+.technologies_first_sec .card-img-overlay .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.technologies_content_sec .it_tech_sol_cards {
+  border: none !important;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  color: #ffffff;
+}
+
+.technologies_content_sec .it_tech_sol_cards h5 {
+  color: #ffffff;
+}
+
+.technologies_content_sec .it_tech_sol_cards hr {
+  color: #ffffff;
+  height: 2px !important;
+}
+
+.technologies_content_sec .it_tech_sol_cards:hover {
+  transform: scale(1.1);
+}
+
+.technologies_content_sec .color1 {
+  background-color: #2393cc;
+}
+
+.technologies_content_sec .color2 {
+  background-color: #f7536c;
+}
+
+.technologies_content_sec .color3 {
+  background-color: #522487;
+}
+
+.technologies_content_sec .color4 {
+  background-color: #ecbc2a;
+}
+
+.technologies_content_sec .color5 {
+  background-color: #f98425;
+}
+
+.technologies_content_sec .color6 {
+  background-color: #2ba79c;
+}
+
+.technologies_content_sec .color7 {
+  background-color: #f75353;
+}
+
+.all_first_sections strong {
+  color: #000000 !important;
+}
+
+.all_first_sections .all_main_rows {
+  min-height: 400px;
+}
+
+.all_first_sections h1 {
+  color: #ffffff !important;
+}
+
+.all_first_sections h2 {
+  color: #ffffff !important;
+}
+
+.all_first_sections h4 {
+  color: #EA4D44;
+  font-weight: 600 !important;
+}
+
+.all_first_sections .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.all_first_sections .navbar .collapse ul li a {
+  color: #ffffff !important;
+}
+
+.all_first_sections .card-img-overlay .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.company_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/company.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.custom_software__Development .bg__color {
+  background-color: yellow;
+}
+
+.work__Approach {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background: url("/assets/images/company/workBanner.jpg") no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+}
+
+.work__Approach ul {
+  list-style: none;
+}
+
+.work__Approach ul li::before {
+  content: "\2022";
+  color: #2393cc !important;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.custom_software__Development {
+  background-color: #f3f7fa;
+}
+
+.about_first_sec {
+  overflow: hidden !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url("/assets/images/home/aboutUs.png") no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.about_first_sec strong {
+  color: #000000 !important;
+}
+
+.about_first_sec .all_main_rows {
+  min-height: 400px;
+}
+
+.about_first_sec h1 {
+  color: #ffffff !important;
+}
+
+.about_first_sec h2 {
+  color: #ffffff !important;
+}
+
+.about_first_sec h4 {
+  color: #ea4d44;
+  font-weight: 600 !important;
+}
+
+.about_first_sec .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.about_first_sec .navbar .collapse ul li a {
+  color: #ffffff !important;
+}
+
+.about_first_sec .card-img-overlay .navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+p {
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.admin_input {
+  width: 100%;
+  padding: 6px 10px !important;
+  color: #ffffff !important;
+  background-color: #2393cc !important;
+  border: 1px solid #2393cc !important;
+  border-radius: 5px !important;
+}
+
+.all_admin_btns {
+  background-color: #2393cc;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 40px;
+  color: #ffffff;
+}
+
+.all_admin_btns:focus {
+  background-color: #2393cc !important;
+}
+
+.content_inputs {
+  padding: 5px !important;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  outline: 0;
+}
+
+.error {
+  color: #f00 !important;
+}
+
+.login_sec {
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.login_sec .first_col {
+  background-color: #ffffff !important;
+}
+
+.login_sec .login_card {
+  background-color: #2393cc !important;
+  border: none !important;
+  border-radius: 25px;
+}
+
+.login_sec .login_card h4 {
+  color: #ffffff;
+}
+
+.login_sec .login_card p {
+  color: #ffffff;
+}
+
+.login_sec .login_card .error {
+  color: #f00 !important;
+}
+
+.login_sec .login_card .login_btn {
+  background-color: #000000;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 40px;
+  color: #ffffff;
+}
+
+.login_sec .login_card .login_btn:focus {
+  background-color: #000000 !important;
+}
+
+.login_sec .login_card input {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.login_sec .login_card ::-moz-placeholder {
+  color: #000000;
+  opacity: 1;
+  /* Firefox */
+}
+
+.login_sec .login_card ::placeholder {
+  color: #000000;
+  opacity: 1;
+  /* Firefox */
+}
+
+.login_sec .login_card :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000000;
+}
+
+.login_sec .login_card ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000000;
+}
+
+.admin_header .navbar {
+  background-color: #ffffff !important;
+}
+
+.admin_header .navbar-header {
+  background-color: #ffffff;
+}
+
+button:focus {
+  background-color: transparent !important;
+}
+
+.sidebar .menu .list li a:hover span,
+.sidebar .menu .list li a:hover i {
+  color: #ffffff !important;
+  display: inline;
+}
+
+.sidebar .menu .list a:hover,
+.sidebar .menu .list a:active,
+.sidebar .menu .list a:focus {
+  background-color: #2393cc !important;
+}
+
+.navbar.navbar-collapse ul li input[type=search]:not(.browser-default) {
+  background-color: #eaf0f7 !important;
+  border-radius: 30px !important;
+}
+
+.sidebar .menu .list .active {
+  background-color: #2393cc !important;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: #ffffff;
+}
+
+.sidebar .menu .list li.active i {
+  color: white;
+}
+
+.sidebar .menu .list .active .menu-toggle {
+  background-color: transparent !important;
+}
+
+.table-bordered thead tr th {
+  background-color: #2393cc !important;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  font-size: 41px !important;
+  font-weight: 600 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 1.2px;
+}
+
+h2 {
+  font-size: 45px !important;
+  font-weight: 600 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 1.2px;
+  color: #2393cc;
+}
+
+h3 {
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 600 !important;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+}
+
+h5 {
+  font-size: 20px;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  color: #2393cc;
+}
+
+h6 {
+  font-size: 18px;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+}
+
+p {
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+
+section {
+  padding: 70px 0px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 10px;
+  color: #ffffff !important;
+  background-color: #2393cc;
+  background-clip: padding-box;
+  border: 1px solid #2393cc;
+  border-radius: 5px !important;
+}
+
+input:focus-visible {
+  outline: 0;
+  border-radius: 3px;
+}
+
+::-moz-placeholder {
+  color: #ffffff;
+  opacity: 1;
+  /* Firefox */
+}
+
+::placeholder {
+  color: #ffffff;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ffffff;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ffffff;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 10px;
+  color: #ffffff !important;
+  background-color: #2393cc;
+  background-clip: padding-box;
+  border: 1px solid #2393cc !important;
+  border-radius: 5px !important;
+  resize: none !important;
+}
+
+textarea:focus-visible {
+  outline: 0;
+  border-radius: 3px;
+}
+
+.error {
+  color: #f00;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.all_btns {
+  background: #2393cc;
+  padding: 6px 30px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+}
+
+.all_btns:focus {
+  background-color: #2393cc !important;
+}
+
+.accordion .accordion-button {
+  background-color: #ffffff !important;
+}
+
+.accordion .accordion-body {
+  background-color: #ffffff !important;
+}
+
+.accordion .accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion .accordion-button:not(.collapsed) {
+  color: #ffffff;
+}
+
+.accordion .accordion-button:focus {
+  background-color: #ffffff !important;
+}
+
+.accordion .all_nav_btns:focus {
+  background-color: #ffffff !important;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+  h2 {
+    font-size: 30px !important;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+  h2 {
+    font-size: 22px !important;
+  }
+}
+

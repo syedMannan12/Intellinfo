@@ -1,0 +1,44 @@
+.about_first_sec {
+    overflow: hidden !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background: url("/assets/images/home/aboutUs.png") no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+
+    strong {
+        color: #000000 !important;
+    }
+
+    .all_main_rows {
+        min-height: 400px;
+    }
+
+    h1 {
+        color: #ffffff !important;
+    }
+    h2 {
+        color: #ffffff !important;
+    }
+    h4 {
+        color: #ea4d44;
+        font-weight: 600 !important;
+    }
+
+    .navbar {
+        background-color: transparent !important;
+        box-shadow: none !important;
+
+        .collapse ul li a {
+            color: #ffffff !important;
+        }
+    }
+
+    .card-img-overlay {
+        .navbar {
+            background-color: transparent !important;
+            box-shadow: none !important;
+        }
+    }
+}

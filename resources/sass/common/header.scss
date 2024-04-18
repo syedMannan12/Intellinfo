@@ -1,0 +1,119 @@
+.header_section {
+    nav.navbar.navbar-expand-lg.nav_bar {
+        padding: 10px 0px;
+        // background-color: #bedbe9;
+        background-color: #ffffff;
+    }
+    a {
+        text-decoration: none !important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0px !important;
+    }
+    .collapse ul li .in-active {
+        color: #000000 !important;
+        font-size: 14px;
+    }
+    .collapse ul li .in-active:hover{
+        color: #2393cc !important;
+    }
+    .header_links .nav-item a {
+        margin-left: 18px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none !important;
+    }
+    a.nav-link.active {
+        color: #2393cc !important;
+        border-bottom: 3px solid;
+        padding-bottom: 0px;
+        font-size: 14px;
+    }
+    a.nav-link {
+        padding-right: 0px !important;
+    }
+    // a.nav-link :hover{
+    //     color: #2393cc !important;
+    // }
+    .company_drop_down {
+        .dropdown {
+            position: static !important;
+        }
+        .dropdown-content {
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+            margin-top: 0px !important;
+            width: 100% !important;
+            display: none;      
+            position: absolute;
+            overflow: auto;
+            left: 0px;
+            background-color: #000000;
+            text-align: left;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .left_panel {
+            padding: 70px 0px;
+            p a {
+                color: #ffffff !important;
+            }
+            p a:hover{
+                color: #2393cc !important;
+                margin-left: 20px !important;
+                transition-duration: 1.5s;
+            }
+            .sub_d_active_links{
+                color: #2393cc !important;
+            }
+            .dropdown_mm {
+                position: static !important;
+            }
+            .dropdown-content-mm {
+                box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+                margin-top: 0px !important;
+                display: none;   
+                position: absolute;
+                overflow: auto;
+            }
+            .dropdown_mm:hover .dropdown-content-mm {
+                display: block; 
+            }
+            .company_drop{
+                margin: 0px !important;
+            }
+            .drop_menu{
+                a{
+                    color: #ffffff !important;
+                }
+                a:hover{
+                    color: #2393cc !important;
+                    margin-left: 20px !important;
+                    transition-duration: 1.5s;
+                }
+                .sub_d_active_links{
+                    color: #2393cc !important;
+                }
+            }
+            .sub_drop_downs{
+                margin-left: 15px;  
+            }
+        }
+    }
+    
+    .all_circles{
+        font-size: 5px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    a.nav-link.active {
+        font-size: 18px;
+        color: #2393cc !important;
+        border-bottom: none !important;
+        font-weight: 600;
+        padding-bottom: 0px;
+    }
+}

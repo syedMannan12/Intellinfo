@@ -1,0 +1,121 @@
+.home_first_sec {
+    overflow: hidden !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background: url("/assets/images/home/homeBanner.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+
+    strong {
+        color: #000000 !important;
+    }
+
+    .all_main_rows {
+        min-height: 400px;
+    }
+
+    h1 {
+        color: #ffffff !important;
+    }
+
+    h4 {
+        color: #ea4d44;
+        font-weight: 600 !important;
+    }
+
+    .navbar {
+        background-color: transparent !important;
+        box-shadow: none !important;
+
+        .collapse ul li a {
+            color: #ffffff !important;
+        }
+    }
+
+    .card-img-overlay {
+        .navbar {
+            background-color: transparent !important;
+            box-shadow: none !important;
+        }
+    }
+}
+
+.ourservices_sec {
+    background-color: #f3f7fa;
+    .our_services_all_cards {
+        margin: 10px;
+        h5 {
+            color: #2393cc;
+        }
+    }
+
+    .slick-track {
+        display: flex !important;
+    }
+
+    .slick-slide {
+        height: inherit !important;
+    }
+    a {
+        color: #2393cc;
+    }
+    a:hover {
+        color: #2393cc;
+    }
+}
+
+.ourindustries_sec {
+    a{
+        color: #2393cc;
+    }
+    a:hover{
+        color: #2393cc;
+    }
+
+    h5 {
+        color: #ffffff !important;
+        font-weight: 700;
+    }
+
+    .card {
+        border-radius: 25px;
+        margin: 0px 20px 0px 20px;
+        border: none;
+        box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+        transition: all 0.3s ease-in-out;
+        height: 100%;
+        p {
+            color: #ffffff !important;
+        }
+    }
+    .card:hover {
+        transform: scale(1.1);
+    }
+    .retail_card {
+        background-color: #2393cc;
+    }
+    .it_card {
+        background-color: #f7536c;
+    }
+    .hospitality_card {
+        background-color: #522487;
+    }
+    .callcenters_card {
+        background-color: #ecbc2a;
+    }
+    .healthcare_card {
+        background-color: #f98425;
+    }
+    .education_card {
+        background-color: #2ba79c;
+    }
+    .music_card {
+        background-color: #f75353;
+    }
+}
+
+
+.aboutUs_img{
+    border-radius: 10px;
+}

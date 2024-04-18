@@ -1,0 +1,74 @@
+.contactus_first_sec {
+    overflow: hidden !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background: url('/assets/images/conUs.png') no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+
+    strong {
+        color: #000000 !important;
+    }
+
+    .all_main_rows {
+        min-height: 400px;
+    }
+
+    h1 {
+        color: #ffffff !important;
+    }
+
+    h4 {
+        color: #EA4D44;
+        font-weight: 600 !important;
+    }
+
+    .navbar {
+        background-color: transparent !important;
+        box-shadow: none !important;
+
+        .collapse ul li a {
+            color: #ffffff !important;
+        }
+    }
+
+    .card-img-overlay {
+        .navbar {
+            background-color: transparent !important;
+            box-shadow: none !important;
+        }
+    }
+}
+
+.contact_content_sec{
+    input{
+        background-color: #ffffff;
+        color: #2393cc !important;
+    }
+    textarea{
+        background-color: #ffffff;
+        color: #2393cc !important;
+        // border: ;
+    }
+    ::placeholder {
+        color: #2393cc;
+        opacity: 1; /* Firefox */
+    }
+    
+    :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #ffffff;
+    }
+    
+    ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #ffffff;
+    }
+    .contact_error_msg{
+        color: #f00;
+    }
+    .contact_success_msg{
+        color: #008000;
+    }
+}

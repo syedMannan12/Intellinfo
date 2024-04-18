@@ -1,0 +1,199 @@
+//
+// @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+body {
+    // font-family: "Manrope", sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+@import "common/header.scss", "common/footer.scss", "common/web.scss",
+    "common/mobile.scss";
+@import "home/web.scss", "home/mobile.scss";
+@import 'services/web.scss', 'services/mobile.scss';
+@import "contactus/web.scss", "contactus/mobile.scss";
+@import "careers/web.scss", "careers/mobile.scss";
+@import 'industries/web.scss', 'industries/mobile.scss';
+@import 'technologies/web.scss', 'technologies/mobile.scss';
+
+@import 'company/web.scss', 'company/mobile.scss';
+@import 'aboutus/web.scss', 'aboutus/mobile.scss';
+
+@import "admin/web.scss";
+
+a {
+    text-decoration: none !important;
+}
+
+h1 {
+    font-size: 41px !important;
+    font-weight: 600 !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 1.2px;
+}
+
+h2 {
+    font-size: 45px !important;
+    font-weight: 600 !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 1.2px;
+    color: #2393cc;
+}
+
+h3 {
+    font-size: 40px !important;
+    font-weight: 600 !important;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    // color: #EA4D44;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 600 !important;
+
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+
+h5 {
+    font-size: 20px;
+    // font-weight: 600 !important;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    color: #2393cc;
+}
+
+h6 {
+    font-size: 18px;
+    // font-weight: 600 !important;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    // color: #ffffff;
+}
+
+p {
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    // color: #A3A3A3;
+}
+
+section {
+    padding: 70px 0px;
+    // background-color: #e8f3e4;
+}
+
+input {
+    width: 100%;
+    padding: 12px 10px;
+    color: #ffffff !important;
+    background-color: #2393cc;
+    background-clip: padding-box;
+    border: 1px solid #2393cc;
+    border-radius: 5px !important;
+}
+
+input:focus-visible {
+    outline: 0;
+    border-radius: 3px;
+}
+
+::placeholder {
+    color: #ffffff;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ffffff;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #ffffff;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 10px;
+    color: #ffffff !important;
+    background-color: #2393cc;
+    background-clip: padding-box;
+    border: 1px solid #2393cc !important;
+    border-radius: 5px !important;
+    resize: none !important;
+}
+
+textarea:focus-visible {
+    outline: 0;
+    border-radius: 3px;
+}
+
+.error {
+    color: #f00;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.all_btns {
+    background: #2393cc;
+    padding: 6px 30px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+}
+
+.all_btns:focus {
+    background-color: #2393cc !important;
+}
+
+
+.accordion {
+    .accordion-button {
+        background-color: #ffffff !important;
+        // border: none !important;
+        // border: 1px solid #2393cc !important;
+    }
+
+    .accordion-body {
+        background-color: #ffffff !important;
+        // border: none !important;
+        // border: 1px solid #2393cc !important;
+    }
+
+    .accordion-button:focus {
+        box-shadow: none !important;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #ffffff;
+    }
+
+    .accordion-button:focus {
+        background-color: #ffffff !important;
+    }
+    .all_nav_btns:focus{
+        background-color: #ffffff !important;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    h2{
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+    h2{
+        font-size: 22px !important;
+    }
+}

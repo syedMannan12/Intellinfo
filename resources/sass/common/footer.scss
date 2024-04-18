@@ -1,0 +1,37 @@
+.footer_sec{
+    background-color: #005683;
+    p{
+        color: #ffffff !important;
+    }
+    a{
+        color: #ffffff;
+    }
+    h6{
+        color: #ffffff;
+        font-weight: 600 !important;
+    }
+    .aLinks:hover{
+        color: #ffffff !important;
+    }
+    
+}
+
+@media only screen and (min-width: 500px) and (max-width: 990px) {
+    .footer_sec{
+        .footerImage{
+            width: 40% !important;
+        }
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 1px) and (max-width: 991px) {
+    .footer_sec{
+        // text-align: center;
+        
+        .connectImage{
+            width: 40px;
+        }
+    }
+}
